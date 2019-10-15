@@ -5,13 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  
-    
-    <title>About Me</title>
+
+    <title>Contact</title>
   </head>
   <body>
 
@@ -22,9 +19,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="./index.html">About Me <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="./index.html">About Me <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-item nav-link active" href="./contact.html">Contact</a>
                   </div>
                 </div>
         </nav>
@@ -32,16 +29,31 @@
 
         <main role="main" class="flex-shrink-0">
           <div class="container">
-            <h1 class="mt-5">About Me</h1>
+            <h1 class="mt-5">Contact</h1>
          
-            <img src="assets/images/cat.png" style="width:200px" class="img-fluid rounded float-left mr-3" alt="James McGlone">
+            <form>
 
-            <p>Lorem ipsum dolor sit amet, brute falli tacimates sea cu, ad nec lorem novum adversarium, dicant partem constituto ad mea. Eos iudico aeterno accumsan no, duo quidam legendos te, has equidem scaevola similique ex. Ei utroque minimum torquatos mea, his labitur hendrerit et. Eius nominati qui ne, legere lucilius theophrastus sea ne, nulla omittam scriptorem ex eum.</p>
-
-            <p>Elitr liberavisse ne eos, et debet feugiat nam, quaestio neglegentur ex his. Natum saperet referrentur an vel. Convenire adipiscing cum id. In est omnes dolores, eos ad novum volutpat comprehensam. Ne pro exerci definitiones, ea omnium assentior scripserit cum.Ne pro exerci definitiones, ea omnium assentior scripserit cum.</p>
-                    
-            <p>Eam an deseruisse definitionem. Cu sit nostro accusam omnesque, quas minimum id nam. Vix ex fierent posidonium, at vel laoreet persecuti. Id sale ponderum convenire qui, iudico fierent eum no, vis ei tota nostro integre. Est dicant dolore facilis cu, eu quo sumo tritani assentior. An eum vidit nominavi, mel perpetua eloquentiam an.</p>
-    
+              <div class="form-group"> <!-- Name field -->
+                <label class="control-label " for="name">Name</label>
+                <input class="form-control" id="name" name="name" type="text"/>
+              </div>
+              
+              <div class="form-group"> <!-- Email field -->
+                <label class="control-label requiredField" for="email">Email<span class="asteriskField">*</span></label>
+                <input class="form-control" id="email" name="email" type="text"/>
+              </div>
+              
+              
+              <div class="form-group"> <!-- Message field -->
+                <label class="control-label " for="message">Message</label>
+                <textarea class="form-control" cols="40" id="message" name="message" rows="6"></textarea>
+              </div>
+              
+              <div class="form-group">
+                <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+              </div>
+              
+            </form>	
          
           </div>
         </main>
