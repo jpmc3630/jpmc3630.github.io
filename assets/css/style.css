@@ -1,22 +1,38 @@
 
+/* background-color: #E7EDF4; */
+    
+/* 
 body {
 
-    background-color: #f8f9fa;
-    /* background-color: #E7EDF4; */
+    background-color: #EDEDED;
+    color: #2B3A4A;
+    
 }
 
 
 .navbar {
-    background-color: #EDEDED !important;
-    /* background-color: #A0AFC0 !important; */
+    background-color: #A0AFC0 !important;
+
 }
 
+.navbar-brand {
+    color: #2B3A4A !important;
+}
+
+.active {
+    color: #2B3A4A !important;
+}
+ */
 
 .footer {
-    background-color: #EDEDED !important;
-    /* background-color:#A0AFC0 !important; */
+    /* background-color: #A0AFC0 !important; */
+  
     bottom: -13px;
 }
+
+
+
+/* OLD BELOW */
 
 /* body {
     color: #777777;
