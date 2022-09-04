@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1f03503d.chunk.css",
-    "main.js": "/static/js/main.b16e07bd.chunk.js",
-    "main.js.map": "/static/js/main.b16e07bd.chunk.js.map",
+    "main.js": "/static/js/main.950b0a19.chunk.js",
+    "main.js.map": "/static/js/main.950b0a19.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.29a8a9a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.29a8a9a9.js.map",
     "static/js/2.4febe3cf.chunk.js": "/static/js/2.4febe3cf.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.1f03503d.chunk.css.map": "/static/css/main.1f03503d.chunk.css.map",
     "static/js/2.4febe3cf.chunk.js.LICENSE.txt": "/static/js/2.4febe3cf.chunk.js.LICENSE.txt",
     "static/media/colors.1aa9d066.svg": "/static/media/colors.1aa9d066.svg",
-    "static/media/final.ccf21efe.png": "/static/media/final.ccf21efe.png",
+    "static/media/final.1900e16c.png": "/static/media/final.1900e16c.png",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
     "static/media/notepad.00bfae70.svg": "/static/media/notepad.00bfae70.svg"
   },
@@ -19,6 +19,6 @@
     "static/js/runtime-main.29a8a9a9.js",
     "static/js/2.4febe3cf.chunk.js",
     "static/css/main.1f03503d.chunk.css",
-    "static/js/main.b16e07bd.chunk.js"
+    "static/js/main.950b0a19.chunk.js"
   ]
 }
